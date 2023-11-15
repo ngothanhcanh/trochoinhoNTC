@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #f0f0f0;
+    background-color: #b2ecb7;
+}
+
+.jump-button {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    z-index: 5;
+}
+.stop-button{
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    transform: translate(86%, 1000%);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.result-container {
+    display: none; /* Ẩn kết quả ban đầu */
+    text-align: center;
+    transform: translate(-25%, 150%);
+}
+
+#resultImage {
+    width: 200px; /* Điều chỉnh kích thước ảnh theo mong muốn */
+}
+
