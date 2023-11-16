@@ -33,6 +33,5 @@ function stop() {
     if(so_lan_click >= 4)
     {
         resultImage.src = 'https://www.bing.com/th/id/OGC.7e8ba29596a757c59e51a69a3515be20?pid=1.7&rurl=https%3a%2f%2fpjm.vn%2fupload%2fnews%2faa6Q_photo1539490845477-15394908454771049022064.gif&ehk=LxQbl%2b35PYLa%2buRvzeBd%2bKZypis0YkPsJUeLRDg7Ow8%3d';
-        resultText.textContent = 'Sếp chửi giờ';
     }
 }
